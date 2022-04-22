@@ -30,12 +30,12 @@ Font Awesome is not included and must be added manually!
 IframePopup::make(__('Url'), 'url')->faIcon('fa-solid fa-arrow-up-right-from-square'),
 ```
 ---
-#### Add text before the button
+#### Add text before the icon
 ```php
 IframePopup::make(__('Url'), 'url')->preText(__('Click me')),
 ```
 ---
-#### Add text after the button
+#### Add text after the icon
 ```php
 IframePopup::make(__('Url'), 'url')->sufText(__('Help')),
 ```
