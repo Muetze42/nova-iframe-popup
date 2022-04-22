@@ -1,4 +1,4 @@
-# Laravel Nova Iframe Popup
+# Laravel Nova Iframe Popup Field
 
 With this field you create a button which displays an iframe in a popup (visually oriented to Inertia.js).
 
