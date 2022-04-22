@@ -6,6 +6,9 @@ With this field you create a button which displays an iframe in a popup (visuall
 ![2](https://raw.githubusercontent.com/Muetze42/asset-repo/main/nova-iframe-popup/images/2.png)
 ![3](https://raw.githubusercontent.com/Muetze42/asset-repo/main/nova-iframe-popup/images/3.png)
 
+## Install
+`composer require norman-huth/nova-iframe-popup`
+
 ## Usage
 ```php
 
