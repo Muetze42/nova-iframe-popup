@@ -26,7 +26,7 @@ class IframePopup extends Field
         ]);
     }
 
-    public function icon(string $heroicon): static
+    public function icon(?string $heroicon): static
     {
         $this->withMeta(['icon' => $heroicon]);
 
