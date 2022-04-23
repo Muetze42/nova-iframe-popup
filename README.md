@@ -23,18 +23,25 @@ IframePopup::make('', 'url', function () {
 ```php
 IframePopup::make(__('Url'), 'url')->icon('eye'),
 ```
----
+
 #### Change Icon ([Font Awesome](https://fontawesome.com/))
 Font Awesome is not included and must be added manually!
 ```php
 IframePopup::make(__('Url'), 'url')->faIcon('fa-solid fa-arrow-up-right-from-square'),
+```
+
+#### Remove Icon
+```php
+IframePopup::make(__('Url'), 'url')
+    ->icon('')
+    ->preText(__('Show me')),
 ```
 ---
 #### Add text before the icon
 ```php
 IframePopup::make(__('Url'), 'url')->preText(__('Click me')),
 ```
----
+
 #### Add text after the icon
 ```php
 IframePopup::make(__('Url'), 'url')->sufText(__('Help')),
